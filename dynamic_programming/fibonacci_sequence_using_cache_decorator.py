@@ -11,4 +11,5 @@ def f(n: int) -> int:
     return f(n - 1) + f(n - 2)
 
 
+print(f(8))
 print(f(200))
