@@ -28,7 +28,7 @@ def f(n: int) -> int:
     return dp[n]
 
 
-for nth in {3, 5, 8, 21, 100, 888, 1337}:
+for nth in (3, 5, 8, 21, 100, 888, 1337):
 
     print(f"Fibonacci number {nth}: {f(nth)}")
     print()
