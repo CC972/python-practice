@@ -3,7 +3,7 @@ import time
 from typing import Callable
 
 
-def measure_time(f):
+def measure_time(f: Callable) -> Callable:
     """Decorator measure time taken to execute function"""
 
     @functools.wraps(f)
