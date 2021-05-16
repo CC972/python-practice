@@ -4,6 +4,7 @@ from decorators.timing import measure_time
 dp = dict()
 
 
+# Introducing undecorated _f here so only time taken for overall f is printed
 def _f(n: int) -> int:
 
     if n == 0 or n == 1:
